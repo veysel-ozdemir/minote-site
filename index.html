@@ -45,6 +45,10 @@
   .hero .lead { font-size: 19px; line-height: 30px; max-width: 34em; margin: 0 0 28px; }
   .actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
   .actions .bs-btn { min-height: 48px; padding: 0 22px; }
+  /* The stores' own badges, as Apple and Google supply them. */
+  .bs-app a.store-badge { display: block; text-decoration: none; }
+  .store-badge img { display: block; height: 48px; width: auto; }
+  .section-head .legal { font-size: 12px; line-height: 18px; color: var(--bs-label); max-width: 60em; margin: 32px 0 0; }
   .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
   .stage { border: 2px solid var(--bs-ink); padding: 40px 24px 48px; display: flex; justify-content: center; }
   .shot { display: block; width: 100%; height: auto; border: 2px solid var(--bs-ink); box-shadow: var(--bs-shadow-page); background: var(--bs-panel); }
@@ -110,8 +114,8 @@
       <h1 class="bs-title" id="hero-title">Your thoughts, kept simple.</h1>
       <p class="lead">MiNote is for people who just want to write something down. Your notes stay on your phone: no account, no cloud, no ads and no tracking.</p>
       <div class="actions">
-        <a class="bs-btn bs-btn--primary" href="https://apps.apple.com/tr/app/minote-simple-safe-notepad/id6740778330" target="_blank" rel="noopener">App Store</a>
-        <a class="bs-btn" href="https://play.google.com/store/apps/details?id=com.ozdemirsoftware.minote" target="_blank" rel="noopener">Google Play</a>
+        <a class="store-badge" href="https://apps.apple.com/tr/app/minote-simple-safe-notepad/id6740778330" target="_blank" rel="noopener"><img src="assets/badges/app-store.svg" width="144" height="48" alt="Download on the App Store"></a>
+        <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.ozdemirsoftware.minote" target="_blank" rel="noopener"><img src="assets/badges/google-play.png" width="161" height="48" alt="Get it on Google Play"></a>
       </div>
       <div class="tags" aria-label="In short">
         <span class="bs-tag">Offline</span>
@@ -251,9 +255,10 @@
       <h2 class="bs-title" id="download-title">The note app you actually open.</h2>
       <p>It's fast, it's yours, and it just works. Free on the App Store and Google Play.</p>
       <div class="actions">
-        <a class="bs-btn bs-btn--primary" href="https://apps.apple.com/tr/app/minote-simple-safe-notepad/id6740778330" target="_blank" rel="noopener">App Store</a>
-        <a class="bs-btn" href="https://play.google.com/store/apps/details?id=com.ozdemirsoftware.minote" target="_blank" rel="noopener">Google Play</a>
+        <a class="store-badge" href="https://apps.apple.com/tr/app/minote-simple-safe-notepad/id6740778330" target="_blank" rel="noopener"><img src="assets/badges/app-store.svg" width="144" height="48" alt="Download on the App Store"></a>
+        <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.ozdemirsoftware.minote" target="_blank" rel="noopener"><img src="assets/badges/google-play.png" width="161" height="48" alt="Get it on Google Play"></a>
       </div>
+      <p class="legal">Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.</p>
     </div>
   </section>
 </main>
